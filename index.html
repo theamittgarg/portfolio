@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7cb438d5c.js" crossorigin="anonymous"></script>
+</head>    
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="tech.png" width="90px" height="80px" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+               <!---- <i class="fa-sharp fa-solid fa-circle-xmark"></i> --->
+             </ul>
+             <!--<i class="fa-duotone fa-bars"></i>--->
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hello, <br> I Am <span>A</span>mit <span>G</span>arg.</h1>
+        </div>
+    </div>
+<!--------------about--------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="IMG_20221212_162020.jpg" width="450px" height="531px">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am Amit Garg. <br>
+                    S/o Mukesh kr. Garg <br>
+                    I am 2nd Yr. Engineering Student.<br>
+                    Currently Pursing B'Tech in C.S.E From Government Engineering College situated in Shouryna Village of Bharatpur(Raj.) 321303<br> 
+                    I am here to learn and explore new webpages and design personalize the web formats.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces </li>
+                        <li><span>Web Developer</span><br>Website Desgining </li>
+                        <li><span>App Developer</span><br>Building Andriod/ios Apps </li>
+
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>I am a fresher. I Search for a good opportunity to seek as an intern in companies.</li>
+
+
+
+                    </ul>
+                
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Compeleted 10th with 60% </li>
+                        <li><span>2021</span><br>Completed 12th with 87% </li>
+                        <li><span>Currently</span><br>Pursing B'tech from GEC Bharatpur </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Services </h1>
+        <div class="services-list">
+            <div id="box1" >
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the design of websites that are displayed on the internet.
+                      Web design used to be focused on designing websites for desktop browsers;
+                     </p>
+                <a href='#'>Learn More</a>
+            </div>
+         
+         <div id="box1">
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+             Designers aim to create interfaces which users find easy to use and pleasurable.
+                 UI design refers to graphical user interfaces and other forms—e.g., voice-controlled interfaces.</p>
+            <a href='#'>Learn More</a>
+         </div>
+         <div id="box1">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Build App</h2>
+            <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) elements.
+                 Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts.</p>
+            <a href='#'>Learn More</a>
+         </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="voice 1.jpg" width="150px" height="330px">
+                <div class="layer">
+                    <h3>A.R.U</h3>
+                    <p> ARU- Audio Recognition Unit. <br> We Want To Built A Virtual Assistant That Uses Speech 
+                        Recognition, Natural Language Processing And Speech Synthesis To 
+                        Take Actions To Help , Entertain Its Users</p>
+                    <a href="#"><i class="fa-solid fa-microphone"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="project.jpg" width="150px" height="330px">
+                <div class="layer">
+                    <h3>Future Projects</h3>
+                    <p>Coming project works should be uploaded soon.</p>
+                    <a href="#"><i class="fa-solid fa-bars-progress"></i></a>
+                </div>
+            </div>
+
+           <!---- <div class="work">
+                <img src="1.jpg" width="150px" height="330px">
+                <div class="layer">
+                    <h3>Github</h3>
+                    <p>My Github Account</p>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>--->
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------Contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> garga8149@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 7568109596</p>
+                <div class="social-icons">
+                  <!-----  <a href=""><i class="fa-brands fa-facebook"></i></a> --->
+                    <a href="https://www.instagram.com/theamittgarg/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/amit-garg-237165253/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://github.com/theamittgarg"><i class="fa-brands fa-github"></i></a>
+                   <!----- <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a> --->
+                </div>
+                <a href="#" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ©2022 <span> Amit Garg </span>, India,Inc. all rights resvered. </p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    } 
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");       
+
+}
+
+</script>
+</body>
+</html>
